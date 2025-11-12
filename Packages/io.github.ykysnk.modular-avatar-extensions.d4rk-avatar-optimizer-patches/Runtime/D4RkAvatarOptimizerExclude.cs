@@ -4,7 +4,7 @@ using UnityEngine;
 namespace io.github.ykysnk.ModularAvatarExtensions;
 
 [DisallowMultipleComponent]
-[AddComponentMenu("Modular Avatar EX/MAEX D 4rk Avatar Optimizer Exclude")]
+[AddComponentMenu("Modular Avatar EX/MAEX d4rk Avatar Optimizer Exclude")]
 public class D4RkAvatarOptimizerExclude : YkyEditorComponent
 {
 }
