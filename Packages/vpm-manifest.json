@@ -40,7 +40,7 @@
       }
     },
     "io.github.ykysnk.modular-avatar-extensions": {
-      "version": "0.0.3",
+      "version": "0.0.4",
       "dependencies": {
         "com.vrchat.avatars": ">=3.9.0",
         "io.github.ykysnk.auto-hook": ">=0.0.3",
