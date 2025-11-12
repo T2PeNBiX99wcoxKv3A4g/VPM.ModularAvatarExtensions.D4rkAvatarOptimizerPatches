@@ -1,0 +1,21 @@
+{
+  "name": "io.github.ykysnk.modular-avatar-extensions.d4rk-avatar-optimizer-patches",
+  "displayName": "Modular Avatar Extensions d4rk Avatar Optimizer Patches",
+  "version": "0.0.1",
+  "description": "A collection of patches for d4rk Avatar Optimizer.",
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.avatars": ">=3.9.0",
+    "io.github.ykysnk.modular-avatar-extensions": ">=0.0.3",
+    "nadena.dev.modular-avatar": ">=1.14.3",
+    "d4rkpl4y3r.d4rkavataroptimizer": ">=3.12.5"
+  },
+  "author": {
+    "name": "yukiyosanako / \u3086\u304d\u3088\u3055\u306a\u3053",
+    "email": "github.qszdy@aleeas.com",
+    "url": "https://github.com/T2PeNBiX99wcoxKv3A4g"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "L:\\VRChatProjects\\VPM.ModularAvatarExtensions.D4rkAvatarOptimizerPatches\\Packages\\io.github.ykysnk.modular-avatar-extensions.d4rk-avatar-optimizer-patches"
+}

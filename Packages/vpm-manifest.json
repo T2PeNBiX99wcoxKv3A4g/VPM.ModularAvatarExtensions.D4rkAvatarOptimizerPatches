@@ -1,1 +1,56 @@
-{"dependencies": {}, "locked": {}}
+{
+  "dependencies": {
+    "io.github.ykysnk.modular-avatar-extensions": {
+      "version": "0.0.3"
+    },
+    "d4rkpl4y3r.d4rkavataroptimizer": {
+      "version": "3.12.5"
+    }
+  },
+  "locked": {
+    "nadena.dev.ndmf": {
+      "version": "1.9.4",
+      "dependencies": {}
+    },
+    "com.vrchat.base": {
+      "version": "3.9.0",
+      "dependencies": {}
+    },
+    "io.github.ykysnk.auto-hook": {
+      "version": "0.0.3",
+      "dependencies": {}
+    },
+    "io.github.ykysnk.utils": {
+      "version": "0.1.1",
+      "dependencies": {
+        "com.vrchat.base": ">=3.9.0"
+      }
+    },
+    "com.vrchat.avatars": {
+      "version": "3.9.0",
+      "dependencies": {
+        "com.vrchat.base": "3.9.0"
+      }
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.14.3",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.7.4",
+        "nadena.dev.ndmf": ">=1.9.2 <2.0.0-a"
+      }
+    },
+    "io.github.ykysnk.modular-avatar-extensions": {
+      "version": "0.0.3",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.9.0",
+        "io.github.ykysnk.auto-hook": ">=0.0.3",
+        "io.github.ykysnk.utils": ">=0.1.1",
+        "nadena.dev.modular-avatar": ">=1.14.3"
+      }
+    },
+    "d4rkpl4y3r.d4rkavataroptimizer": {
+      "version": "3.12.5",
+      "dependencies": {}
+    }
+  }
+}

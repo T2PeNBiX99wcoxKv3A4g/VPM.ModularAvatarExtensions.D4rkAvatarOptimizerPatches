@@ -1,0 +1,18 @@
+{
+  "name": "io.github.ykysnk.modular-avatar-extensions.d4rk-avatar-optimizer-patches",
+  "rootNamespace": "io.github.ykysnk.ModularAvatarExtensions",
+  "references": [
+    "VRC.SDK3A",
+    "VRC.SDKBase",
+    "io.github.ykysnk.utils"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
