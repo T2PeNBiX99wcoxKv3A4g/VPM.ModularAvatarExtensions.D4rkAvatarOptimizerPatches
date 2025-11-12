@@ -10,7 +10,7 @@ public class D4RkAvatarOptimizerExcludeEditor : UnityEditor.Editor
         serializedObject.Update();
         EditorGUI.BeginChangeCheck();
 
-        EditorGUILayout.HelpBox("This object will be exclude in D 4Rk Avatar Optimizer", MessageType.Info, true);
+        EditorGUILayout.HelpBox("This object will be exclude in d4rk Avatar Optimizer", MessageType.Info, true);
 
         if (EditorGUI.EndChangeCheck())
             serializedObject.ApplyModifiedProperties();
