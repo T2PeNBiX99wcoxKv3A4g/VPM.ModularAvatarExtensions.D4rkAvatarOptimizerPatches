@@ -4,7 +4,8 @@
   "references": [
     "VRC.SDK3A",
     "VRC.SDKBase",
-    "io.github.ykysnk.utils"
+    "io.github.ykysnk.utils",
+    "io.github.ykysnk.modular-avatar-extensions"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
