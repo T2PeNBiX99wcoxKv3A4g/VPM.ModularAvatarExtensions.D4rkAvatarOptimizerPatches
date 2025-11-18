@@ -23,7 +23,7 @@
       "dependencies": {}
     },
     "io.github.ykysnk.utils": {
-      "version": "0.1.1",
+      "version": "0.2.7",
       "dependencies": {
         "com.vrchat.base": ">=3.9.0"
       }
@@ -42,10 +42,10 @@
       }
     },
     "io.github.ykysnk.modular-avatar-extensions": {
-      "version": "0.1.6",
+      "version": "0.1.11",
       "dependencies": {
         "com.vrchat.avatars": ">=3.9.0",
-        "io.github.ykysnk.utils": ">=0.1.1",
+        "io.github.ykysnk.utils": ">=0.2.7",
         "nadena.dev.modular-avatar": ">=1.14.3"
       }
     },
