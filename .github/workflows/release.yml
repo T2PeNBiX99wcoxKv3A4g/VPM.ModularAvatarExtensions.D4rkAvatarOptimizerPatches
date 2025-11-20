@@ -2,6 +2,9 @@ name: Build Release
 
 on: 
   workflow_dispatch:
+  push:
+    paths:
+      - 'Packages/io.github.ykysnk.modular-avatar-extensions.d4rk-avatar-optimizer-patches/package.json'
 
 jobs:
 
