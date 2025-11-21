@@ -44,7 +44,7 @@ internal static class D4RkAvatarOptimizerPatches
 
         var origList = OrigGetAllExcludedTransforms(__instance);
         var exExclusions = new List<Transform>();
-        exExclusions.AddRange(__instance.transform.GetComponentsInChildren<D4RkAvatarOptimizerExclude>(true)
+        exExclusions.AddRange(__instance.transform.GetComponentsInChildren<ModularAvatarExtensionsD4RkAvatarOptimizerExclude>(true)
             .Select(c => c.transform));
         foreach (var excludedTransform in exExclusions.Where(excludedTransform => excludedTransform != null))
         {

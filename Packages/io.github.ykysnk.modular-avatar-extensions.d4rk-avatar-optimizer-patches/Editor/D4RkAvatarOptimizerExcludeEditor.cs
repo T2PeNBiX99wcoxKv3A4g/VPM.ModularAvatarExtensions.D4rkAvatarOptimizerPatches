@@ -2,7 +2,7 @@ using UnityEditor;
 
 namespace io.github.ykysnk.ModularAvatarExtensions.Editor;
 
-[CustomEditor(typeof(D4RkAvatarOptimizerExclude))]
+[CustomEditor(typeof(ModularAvatarExtensionsD4RkAvatarOptimizerExclude))]
 [CanEditMultipleObjects]
 public class D4RkAvatarOptimizerExcludeEditor : MaexEditor
 {

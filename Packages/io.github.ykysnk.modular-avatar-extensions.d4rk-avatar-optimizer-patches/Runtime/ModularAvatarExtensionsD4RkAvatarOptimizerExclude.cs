@@ -4,7 +4,7 @@ namespace io.github.ykysnk.ModularAvatarExtensions
 {
     [DisallowMultipleComponent]
     [AddComponentMenu("Modular Avatar EX/MAEX d4rk Avatar Optimizer Exclude")]
-    public class D4RkAvatarOptimizerExclude : AvatarMaexComponent
+    public class ModularAvatarExtensionsD4RkAvatarOptimizerExclude : AvatarMaexComponent
     {
     }
 }
