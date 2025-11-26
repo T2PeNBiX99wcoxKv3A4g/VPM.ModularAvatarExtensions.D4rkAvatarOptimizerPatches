@@ -11,6 +11,12 @@
     },
     "net.nekobako.editor-patcher": {
       "version": "1.0.0"
+    },
+    "dev.sakurayuki.uniasset": {
+      "version": "1.0.5"
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2"
     }
   },
   "locked": {
@@ -42,7 +48,7 @@
       }
     },
     "io.github.ykysnk.modular-avatar-extensions": {
-      "version": "0.5.2",
+      "version": "0.6.0",
       "dependencies": {
         "com.vrchat.avatars": ">=3.9.0",
         "io.github.ykysnk.utils": ">=0.3.1",
@@ -59,6 +65,14 @@
     },
     "net.nekobako.editor-patcher": {
       "version": "1.0.0",
+      "dependencies": {}
+    },
+    "dev.sakurayuki.uniasset": {
+      "version": "1.0.5",
+      "dependencies": {}
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2",
       "dependencies": {}
     }
   }

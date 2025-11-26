@@ -6,5 +6,6 @@ namespace io.github.ykysnk.ModularAvatarExtensions
     [AddComponentMenu("Modular Avatar EX/MAEX d4rk Avatar Optimizer Exclude")]
     public class ModularAvatarExtensionsD4RkAvatarOptimizerExclude : AvatarMaexComponent
     {
+        public override bool DontDestroyOnBuild => true;
     }
 }
