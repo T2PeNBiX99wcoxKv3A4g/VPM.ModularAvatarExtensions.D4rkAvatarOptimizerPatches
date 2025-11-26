@@ -4,6 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using d4rkpl4y3r.AvatarOptimizer.Extensions;
 using HarmonyLib;
+using io.github.ykysnk.utils;
 using UnityEditor;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ internal static class D4RkAvatarOptimizerPatches
     private const string CacheGetAllExcludedTransformsName = "cache_GetAllExcludedTransforms";
 
     [InitializeOnLoadMethod]
+    [MenuItem("Tools/Modular Avatar EX/ReInitialize D4Rk Avatar Optimizer Patches")]
     private static void Initialize()
     {
         var harmony = new Harmony(PatchId);
@@ -24,7 +26,7 @@ internal static class D4RkAvatarOptimizerPatches
             new(typeof(D4RkAvatarOptimizerPatches), nameof(OrigGetAllExcludedTransforms))).Patch();
         harmony.Patch(targetMethod, new(typeof(D4RkAvatarOptimizerPatches), nameof(GetAllExcludedTransforms)));
         AssemblyReloadEvents.beforeAssemblyReload += () => harmony.UnpatchAll(PatchId);
-        Debug.Log($"[{nameof(D4RkAvatarOptimizerPatches)}] Initialized");
+        Utils.Log(nameof(D4RkAvatarOptimizerPatches), "D4Rk Avatar Optimizer Patches Initialized");
     }
 
     [SuppressMessage("ReSharper", "UnusedParameter.Local")]
@@ -44,7 +46,8 @@ internal static class D4RkAvatarOptimizerPatches
 
         var origList = OrigGetAllExcludedTransforms(__instance);
         var exExclusions = new List<Transform>();
-        exExclusions.AddRange(__instance.transform.GetComponentsInChildren<ModularAvatarExtensionsD4RkAvatarOptimizerExclude>(true)
+        exExclusions.AddRange(__instance.transform
+            .GetComponentsInChildren<ModularAvatarExtensionsD4RkAvatarOptimizerExclude>(true)
             .Select(c => c.transform));
         foreach (var excludedTransform in exExclusions.Where(excludedTransform => excludedTransform != null))
         {
@@ -52,7 +55,7 @@ internal static class D4RkAvatarOptimizerPatches
             origList.UnionWith(excludedTransform.GetAllDescendants());
         }
 
-        Debug.Log($"[{nameof(D4RkAvatarOptimizerPatches)}] Cached {origList.Count} transforms");
+        Utils.Log(nameof(D4RkAvatarOptimizerPatches), $"Cached {origList.Count} transforms");
         __result = origList;
         return false;
     }
