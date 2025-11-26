@@ -1,12 +1,12 @@
 {
   "name": "io.github.ykysnk.modular-avatar-extensions.d4rk-avatar-optimizer-patches",
   "displayName": "Modular Avatar Extensions d4rk Avatar Optimizer Patches",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A collection of patches for d4rk Avatar Optimizer.",
   "gitDependencies": {},
   "vpmDependencies": {
-    "com.vrchat.avatars": ">=3.9.0",
-    "io.github.ykysnk.modular-avatar-extensions": ">=0.1.11",
+    "com.vrchat.avatars": ">=3.10.0",
+    "io.github.ykysnk.modular-avatar-extensions": ">=0.6.0",
     "nadena.dev.modular-avatar": ">=1.14.3",
     "d4rkpl4y3r.d4rkavataroptimizer": ">=3.12.5"
   },
