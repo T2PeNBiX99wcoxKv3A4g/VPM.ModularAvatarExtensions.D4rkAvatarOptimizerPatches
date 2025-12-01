@@ -1,7 +1,7 @@
 {
   "name": "io.github.ykysnk.modular-avatar-extensions.d4rk-avatar-optimizer-patches",
   "displayName": "Modular Avatar Extensions d4rk Avatar Optimizer Patches",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A collection of patches for d4rk Avatar Optimizer.",
   "gitDependencies": {},
   "vpmDependencies": {
