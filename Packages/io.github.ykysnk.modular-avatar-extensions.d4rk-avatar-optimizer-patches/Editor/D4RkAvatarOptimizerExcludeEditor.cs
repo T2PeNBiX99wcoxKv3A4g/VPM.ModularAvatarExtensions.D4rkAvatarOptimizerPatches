@@ -8,7 +8,7 @@ namespace io.github.ykysnk.ModularAvatarExtensions.Editor;
 public class D4RkAvatarOptimizerExcludeEditor : MaexEditor
 {
     private const string LocalizationID = "io.github.ykysnk.modular-avatar-extensions";
-    
+
     protected override void OnMaexInspectorGUI()
     {
         EditorGUILayout.HelpBox("label.d4rk_avatar_optimizer_exclude.info".L(LocalizationID), MessageType.Info, true);
