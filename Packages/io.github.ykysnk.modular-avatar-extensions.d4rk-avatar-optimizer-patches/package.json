@@ -6,7 +6,7 @@
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.10.0",
-    "io.github.ykysnk.modular-avatar-extensions": ">=0.6.0",
+    "io.github.ykysnk.modular-avatar-extensions": ">=0.8.0",
     "nadena.dev.modular-avatar": ">=1.14.3",
     "d4rkpl4y3r.d4rkavataroptimizer": ">=3.12.5"
   },
