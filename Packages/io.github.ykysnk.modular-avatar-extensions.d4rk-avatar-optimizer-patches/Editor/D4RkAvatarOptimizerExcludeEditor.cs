@@ -1,3 +1,4 @@
+using io.github.ykysnk.Localization.Editor;
 using UnityEditor;
 
 namespace io.github.ykysnk.ModularAvatarExtensions.Editor;
@@ -6,8 +7,10 @@ namespace io.github.ykysnk.ModularAvatarExtensions.Editor;
 [CanEditMultipleObjects]
 public class D4RkAvatarOptimizerExcludeEditor : MaexEditor
 {
-    protected override void OnInspectorGUIDraw()
+    private const string LocalizationID = "io.github.ykysnk.modular-avatar-extensions";
+    
+    protected override void OnMaexInspectorGUI()
     {
-        EditorGUILayout.HelpBox("This object will be exclude in d4rk Avatar Optimizer", MessageType.Info, true);
+        EditorGUILayout.HelpBox("label.d4rk_avatar_optimizer_exclude.info".L(LocalizationID), MessageType.Info, true);
     }
 }

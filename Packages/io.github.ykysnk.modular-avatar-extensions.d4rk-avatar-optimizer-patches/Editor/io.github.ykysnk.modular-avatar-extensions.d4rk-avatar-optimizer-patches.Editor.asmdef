@@ -8,6 +8,7 @@
         "VRC.SDKBase.Editor",
         "io.github.ykysnk.utils",
         "io.github.ykysnk.utils.Editor",
+        "io.github.ykysnk.localization.Editor",
         "io.github.ykysnk.modular-avatar-extensions",
         "io.github.ykysnk.modular-avatar-extensions.Editor",
         "io.github.ykysnk.modular-avatar-extensions.d4rk-avatar-optimizer-patches",
